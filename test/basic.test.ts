@@ -5,10 +5,3 @@ describe('Hi', () => {
     expect(1 + 1).toEqual(2)
   })
 })
-
-it('should be interactive', async () => {
-})
-const a = async () => {
-  return 1
-}
-a()

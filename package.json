@@ -37,7 +37,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "vue-tsc --noEmit",
-    "test": "vitest",
+    "test": "vitest --dir test",
     "ptest": "pnpm run -C playground test",
     "test:e2e": "cypress open",
     "prepublishOnly": "nr build",
@@ -56,5 +56,8 @@
     "pkgroll": "^1.3.1",
     "typescript": "^4.7.2",
     "vitest": "^0.13.1"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
   }
 }
