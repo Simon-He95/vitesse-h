@@ -37,8 +37,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "vue-tsc --noEmit",
-    "test": "vitest --dir test",
-    "ptest": "pnpm run -C playground test",
+    "test": "vitest --dir test -u",
+    "ptest": "pnpm run -C playground test -u",
     "test:e2e": "cypress open",
     "prepublishOnly": "nr build",
     "release": "bumpp --commit --tag --push && pnpm publish"
