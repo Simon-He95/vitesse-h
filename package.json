@@ -1,6 +1,6 @@
 {
   "name": "vitesse",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "packageManager": "pnpm@6.32.3",
   "description": "vitesse",
   "author": "Simon He",
@@ -42,7 +42,7 @@
     "preview": "pnpm run -C playground preview",
     "test:e2e": "cypress open",
     "prepublishOnly": "nr build",
-    "release": "bumpp --commit --tag && git add . && git commit -m 'chore: update version' && git push --force  && git push origin --tags -f && pnpm publish"
+    "release": "bumpp --commit --tag && git add . && git commit -m 'chore: update version' && git push --force  && git push origin --tags -f && npm publish"
   },
   "dependencies": {
     "@vueuse/core": "^8.1.1",
