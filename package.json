@@ -42,7 +42,7 @@
     "preview": "pnpm run -C playground preview",
     "test:e2e": "cypress open",
     "prepublishOnly": "nr build",
-    "release": "bumpp --commit --tag && updateVersion  && gptf && pnpm publish"
+    "release": "bumpp --commit --tag && git push --force  && git push origin --tags -f && pnpm publish"
   },
   "dependencies": {
     "@vueuse/core": "^8.1.1",
