@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "lib": ["esnext", "DOM"],
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
@@ -15,6 +18,7 @@
   "exclude": [
     "dist",
     "playground",
-    "cypress"
+    "cypress",
+    "node_modules"
   ]
 }
