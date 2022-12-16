@@ -12,6 +12,7 @@ importers:
       eslint: ^8.26.0
       eslint-plugin-n: ^15.3.0
       lint-staged: ^13.1.0
+      picocolors: ^1.0.0
       prettier: ^2.8.1
       simple-git-hooks: ^2.8.1
       tsup: ^6.5.0
@@ -31,6 +32,7 @@ importers:
       eslint: 8.26.0
       eslint-plugin-n: 15.3.0_eslint@8.26.0
       lint-staged: 13.1.0
+      picocolors: 1.0.0
       prettier: 2.8.1
       simple-git-hooks: 2.8.1
       tsup: 6.5.0_typescript@4.8.4
