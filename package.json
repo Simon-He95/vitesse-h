@@ -59,7 +59,7 @@
     "release": "bumpp --commit --tag --push && git push origin --tags -f && npm publish"
   },
   "dependencies": {
-    "@vueuse/core": "^8.9.4",
+    "@vueuse/core": "^9.0.0",
     "vue": "^3.2.41"
   },
   "devDependencies": {
