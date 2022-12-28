@@ -1,7 +1,7 @@
 {
   "name": "vitesse",
   "version": "0.0.1",
-  "packageManager": "pnpm@7.20.0",
+  "packageManager": "pnpm@7.21.0",
   "description": "vitesse",
   "author": "Simon He",
   "license": "MIT",
