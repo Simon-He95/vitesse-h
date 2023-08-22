@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@antfu/eslint-config': ^0.34.0
       '@types/node': ^18.0.0
-      '@vitejs/plugin-vue': ^3.1.2
+      '@vitejs/plugin-vue': ^4.0.0
       '@vueuse/core': ^9.0.0
       bumpp: ^8.2.1
       eslint: ^8.26.0
@@ -27,7 +27,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config': 0.34.0_wyqvi574yv7oiwfeinomdzmc3m
       '@types/node': 18.11.16
-      '@vitejs/plugin-vue': 3.2.0_vite@4.0.1+vue@3.2.41
+      '@vitejs/plugin-vue': 4.3.3_vite@4.0.1+vue@3.2.41
       bumpp: 8.2.1
       eslint: 8.26.0
       eslint-plugin-n: 15.3.0_eslint@8.26.0
@@ -47,7 +47,7 @@ importers:
       '@iconify-json/carbon': ^1.1.2
       '@types/node': ^18.0.0
       '@unocss/reset': ^0.47.0
-      '@vitejs/plugin-vue': ^3.0.1
+      '@vitejs/plugin-vue': ^4.0.0
       '@vue/test-utils': ^2.0.0-rc.18
       '@vueuse/core': ^9.0.0
       eslint: ^8.11.0
@@ -71,7 +71,7 @@ importers:
       '@iconify-json/carbon': 1.1.6
       '@types/node': 18.11.16
       '@unocss/reset': 0.47.6
-      '@vitejs/plugin-vue': 3.2.0_vite@4.0.1+vue@3.2.36
+      '@vitejs/plugin-vue': 4.3.3_vite@4.0.1+vue@3.2.36
       '@vue/test-utils': 2.0.2_vue@3.2.36
       eslint: 8.16.0
       jsdom: 19.0.0
@@ -1163,22 +1163,22 @@ packages:
       magic-string: 0.26.7
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@4.0.1+vue@3.2.36:
-    resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
+  /@vitejs/plugin-vue/4.3.3_vite@4.0.1+vue@3.2.36:
+    resolution: {integrity: sha512-ssxyhIAZqB0TrpUg6R0cBpCuMk9jTIlO1GNSKKQD6S8VjnXi6JXKfUXjSsxey9IwQiaRGsO1WnW9Rkl1L6AJVw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
       vite: 4.0.1_@types+node@18.11.16
       vue: 3.2.36
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@4.0.1+vue@3.2.41:
-    resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
+  /@vitejs/plugin-vue/4.3.3_vite@4.0.1+vue@3.2.41:
+    resolution: {integrity: sha512-ssxyhIAZqB0TrpUg6R0cBpCuMk9jTIlO1GNSKKQD6S8VjnXi6JXKfUXjSsxey9IwQiaRGsO1WnW9Rkl1L6AJVw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
       vite: 4.0.1_@types+node@18.11.16
