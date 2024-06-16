@@ -88,4 +88,16 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 <a href="https://github.com/Simon-He95/sponsor" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
 
 
-<span><div align="center">![sponsors](https://www.hejian.club/images/sponsors.jpg)</div></span>
+## Sponsors
+
+<p align="center">
+  <a href="https://cdn.jsdelivr.net/gh/Simon-He95/sponsor/sponsors.svg">
+    <img src="https://cdn.jsdelivr.net/gh/Simon-He95/sponsor/sponsors.svg"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://cdn.jsdelivr.net/gh/Simon-He95/sponsor/sponsors_circle.svg">
+    <img src="https://cdn.jsdelivr.net/gh/Simon-He95/sponsor/sponsors_circle.svg"/>
+  </a>
+</p>
