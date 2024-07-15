@@ -1,4 +1,5 @@
 import { defineComponent, h, ref } from 'vue'
+
 export const component = defineComponent({
   props: {
     title: {
@@ -8,15 +9,18 @@ export const component = defineComponent({
   },
   setup(props) {
     const count = ref<number>(0)
-    return () => h('div', null,
-      [
+    return () =>
+      h('div', null, [
         h('div', props.title),
-        h('div', {
-          onClick() {
-            count.value++
+        h(
+          'div',
+          {
+            onClick() {
+              count.value++
+            },
           },
-        }, `count: ${count.value}`),
-      ],
-    )
+          `count: ${count.value}`,
+        ),
+      ])
   },
 })

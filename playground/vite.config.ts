@@ -1,6 +1,6 @@
 /// <reference types="vitest" />
 
-import path from 'path'
+import path from 'node:path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
@@ -25,12 +25,7 @@ export default defineConfig({
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
-      imports: [
-        'vue',
-        'vue/macros',
-        'vue-router',
-        '@vueuse/core',
-      ],
+      imports: ['vue', 'vue-router', '@vueuse/core'],
       dts: true,
     }),
 
